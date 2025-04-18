@@ -81,6 +81,22 @@ Run the following command to import roles and map them to groups:
 cloaksmith import-roles --client-id <target_client_id> --realm <target_client_realm> <path_to_csv>
 ```
 
+## Enabling Completion
+
+### ZSH
+Add this to ~/.zshrc:
+
+```shell
+eval "$(_CLOAKSMITH_COMPLETE=zsh_source cloaksmith)"
+```
+
+### BASH
+Add this to ~/.bashrc:
+
+```shell
+eval "$(_CLOAKSMITH_COMPLETE=bash_source cloaksmith)"
+```
+
 ## Extensibility
 Cloaksmith is designed to be easily extensible. You can add new commands or functionality by modifying the CLI or the underlying modules.
 
