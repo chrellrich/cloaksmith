@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="media/logo.svg" alt="Cloaksmith Logo" width="200"/>
+</p>
+
 # Cloaksmith
 
 Cloaksmith is a CLI tool designed to interact with a Keycloak server using OAuth 2.0 Device Authorization Grant. It allows you to import roles from a CSV file and create role mappings, with a focus on simplicity and extensibility.
