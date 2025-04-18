@@ -1,0 +1,5 @@
+role_name,group_name
+admin,admins_group
+user,users_group
+moderator,moderators_group
+developer,developers_group
